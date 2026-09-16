@@ -11,7 +11,7 @@ No HTML export is required when notes change. The only generated file is `assets
 
 1. Copy your Obsidian Markdown folders and publishable PDFs into the root beside `Home.md`.
 2. Edit `assets/site-config.json` with your site title, subtitle, home document, and icon.
-3. Edit `assets/css/palette.css` to choose the colors for both themes.
+3. Edit `assets/css/palette.css` to choose colors, or select a ready-made palette from `assets/palettes/`.
 4. Double-click `tools/Update Content Index.cmd` whenever files are added, removed, renamed, or retitled.
 5. Double-click `tools/Open Local Site.cmd` to test locally.
 6. Commit the publishable files to a GitHub repository and enable GitHub Pages from the repository root on your chosen branch.
@@ -20,6 +20,7 @@ No HTML export is required when notes change. The only generated file is `assets
 
 - `assets/site-config.json` controls branding and content discovery.
 - `assets/css/palette.css` contains the complete user-editable color palette.
+- `assets/palettes/` contains optional, ready-made palettes; each includes light and dark modes.
 - `assets/images/site-icon.svg` is the default header icon and favicon.
 - `Home.md` is the default opening document.
 - Your Markdown folders and PDFs are the actual site content.
@@ -85,6 +86,23 @@ Use an empty list when no attribution is required:
 ## Colors and Backgrounds
 
 All theme colors are in `assets/css/palette.css`. The dark theme is under `:root`; the light theme is under `:root[data-theme="light"]`.
+
+The default `palette.css` is **Burlap**. Four alternate, complete palettes are available in `assets/palettes/`:
+
+| File | Look |
+| --- | --- |
+| `paper-ink.css` | Near-white paper and neutral charcoal |
+| `field-grey.css` | Cool slate and steel blue |
+| `olive-archive.css` | Aged ledger paper and field green |
+| `high-contrast.css` | Strong light/dark separation for long reading |
+
+To use one, open `index.html` and change only the palette stylesheet line. For example:
+
+```html
+<link rel="stylesheet" href="assets/palettes/field-grey.css">
+```
+
+Keep `assets/css/viewer.css` linked after the palette. The header's light/dark button continues to work; each preset defines both modes. To customize a preset, copy its contents into `assets/css/palette.css` and restore the original stylesheet path in `index.html`. This keeps the preset file available as an untouched reference.
 
 To add a background image, put it in `assets/images` and change this variable in both theme sections:
 
