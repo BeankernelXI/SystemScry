@@ -16,5 +16,11 @@
         "path":  "LandingPage.md",
         "folder":  "",
         "type":  "markdown"
+    },
+    {
+        "title":  "Second File",
+        "path":  "SecondFile.md",
+        "folder":  "",
+        "type":  "markdown"
     }
 ]
