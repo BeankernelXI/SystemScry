@@ -2,14 +2,14 @@
 and
 # My Lazy Dungeonmaster Notes
 ## Table of Contents
-1. [[#Step 1 Review the Characters|Review the Characters]]
-2. [[#Step 2 Create a Strong Start|Create a Strong Start]]
-3. [[#Step 3 Outline Potential Scenes|Outline Potential Scenes]]
-4. [[#Step 4 Define Secrets and Clues|Define Secrets and Clues]]
-5. [[#Step 5 Develop Fantastic Locations|Develop Fantastic Locations]]
-6. [[#Step 6 Outline Important NPCs|Outline Important NPCs]]
-7. [[#Step 7 Choose Relevant Monsters|Choose Relevant Monsters]]
-8. [[#Step 8 Select Treasure and Magic Item Rewards|Select Treasure and Magic Item Rewards]]
+1. [[LandingPage#Step 1 Review the Characters|Review the Characters]]
+2. [[LandingPage#Step 2 Create a Strong Start|Create a Strong Start]]
+3. [[LandingPage#Step 3 Outline Potential Scenes|Outline Potential Scenes]]
+4. [[LandingPage#Step 4 Define Secrets and Clues|Define Secrets and Clues]]
+5. [[LandingPage#Step 5 Develop Fantastic Locations|Develop Fantastic Locations]]
+6. [[LandingPage#Step 6 Outline Important NPCs|Outline Important NPCs]]
+7. [[LandingPage#Step 7 Choose Relevant Monsters|Choose Relevant Monsters]]
+8. [[LandingPage#Step 8 Select Treasure and Magic Item Rewards|Select Treasure and Magic Item Rewards]]
 ## Step 1: Review the Characters
 
 In the first step, we focus our attention on the players' characters. The characters are the single interface between players and the world we're sharing together. We spend this part of our prep remembering who they are, what they want, and what connections they have to the world. It's the first of the eight steps so we can keep them firmly in mind while running through the other seven steps.
