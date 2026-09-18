@@ -1,4 +1,4 @@
-[[SecondFile.md|a random link]]
+[[SecondFile|a random link]]
 and
 # My Lazy Dungeonmaster Notes
 ## Table of Contents
