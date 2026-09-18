@@ -122,8 +122,11 @@ Supported links include:
 [[Another Note]]
 [[Folder/Another Note|Custom label]]
 [[Another Note#A Heading]]
+[[#A Section|Jump to this page's section]]
 [Standard link](Folder/Another%20Note.md)
 ```
+
+A link beginning with `#` targets a heading in the current document. The label after `|` is optional, just as in Obsidian.
 
 Use normal Markdown for page structure:
 
